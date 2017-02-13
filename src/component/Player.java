@@ -20,4 +20,8 @@ public class Player {
     public void newStep(int x, int y) {
         board.setValue(x, y, playerValue);
     }
+
+    public String getPlayerString() {
+        return player;
+    }
 }

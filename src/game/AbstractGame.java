@@ -8,7 +8,6 @@ import component.Player;
  */
 public abstract class AbstractGame implements Game {
 
-    protected static final int WIN_NUMBER = 3;
     protected static final int DRAW = 1;
     protected static final int WIN_O = 2;
     protected static final int WIN_X = 3;
@@ -39,6 +38,7 @@ public abstract class AbstractGame implements Game {
         } else {
             playerO.newStep(x, y);
         }
+        xTurn = !xTurn;
     }
 
     @Override
@@ -53,4 +53,14 @@ public abstract class AbstractGame implements Game {
 
     @Override
     public abstract int currentStatus();
+
+    @Override
+    public void printInCommandLine() {
+        board.printInCommandLine();
+    }
+
+    @Override
+    public Player nextPlayer() {
+        return xTurn ? playerX : playerO;
+    }
 }

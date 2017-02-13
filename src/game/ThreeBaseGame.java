@@ -51,6 +51,35 @@ public class ThreeBaseGame extends AbstractGame {
             }
         }
 
+        if (validPoint(0, 0)) {
+            boolean isO = board.getBoardValie(0, 0) == PLAYER_O_NUM;
+            int value = isO ? PLAYER_O_NUM : PLAYER_X_NUM;
+            boolean isWin = true;
+            for (int i = 1; i < size; i++) {
+                if (board.getBoardValie(i, i) != value) {
+                    isWin = false;
+                    break;
+                }
+            }
+            if (isWin) {
+                return isO ? WIN_O : WIN_X;
+            }
+        }
+        if (validPoint(0, size - 1)) {
+            boolean isO = board.getBoardValie(0, size - 1) == PLAYER_O_NUM;
+            int value = isO ? PLAYER_O_NUM : PLAYER_X_NUM;
+            boolean isWin = true;
+            for (int i = 1; i < size; i++) {
+                if (board.getBoardValie(i, size - 1 - i) != value) {
+                    isWin = false;
+                    break;
+                }
+            }
+            if (isWin) {
+                return isO ? WIN_O : WIN_X;
+            }
+        }
+
         boolean isContinue = false;
         for (int i = 0; i < size; i++) {
             if (isContinue) {

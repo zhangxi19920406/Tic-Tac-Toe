@@ -13,5 +13,7 @@ public interface Game {
     boolean validPoint(int x, int y);
     void step(int x, int y);
     void resetGame();
+    void printInCommandLine();
+    Player nextPlayer();
 
 }
