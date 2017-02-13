@@ -29,7 +29,7 @@ public abstract class AbstractGame implements Game {
         board = new Board(size);
         playerO = new Player(board, "o", PLAYER_O_NUM);
         playerX = new Player(board, "x", PLAYER_X_NUM);
-        xTurn = false;
+        xTurn = true;
     }
 
     public void step(int x, int y) {

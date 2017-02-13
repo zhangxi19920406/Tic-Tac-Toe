@@ -9,7 +9,7 @@ public class Board {
 
     public static final String X = "x";
     public static final String O = "o";
-    public static final String[] BOARD_VALUE = new String[]{" ", X, O};
+    public static final String[] BOARD_VALUE = new String[]{" ", O, X};
 
     public static void main(String[] str) {
         Board b = new Board(3);

@@ -51,7 +51,7 @@ public class ThreeBaseGame extends AbstractGame {
             }
         }
 
-        if (validPoint(0, 0)) {
+        if (!validPoint(0, 0)) {
             boolean isO = board.getBoardValie(0, 0) == PLAYER_O_NUM;
             int value = isO ? PLAYER_O_NUM : PLAYER_X_NUM;
             boolean isWin = true;
@@ -65,7 +65,7 @@ public class ThreeBaseGame extends AbstractGame {
                 return isO ? WIN_O : WIN_X;
             }
         }
-        if (validPoint(0, size - 1)) {
+        if (!validPoint(0, size - 1)) {
             boolean isO = board.getBoardValie(0, size - 1) == PLAYER_O_NUM;
             int value = isO ? PLAYER_O_NUM : PLAYER_X_NUM;
             boolean isWin = true;
