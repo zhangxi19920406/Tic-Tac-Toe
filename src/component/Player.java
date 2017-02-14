@@ -24,4 +24,8 @@ public class Player {
     public String getPlayerString() {
         return player;
     }
+
+    public Board getBoard() {
+        return board;
+    }
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by XiZhang on 2/12/17.
  *
- * 3*3 P Vs P
+ * 3*3 P vs P
  */
 public class PvP3 {
 
@@ -21,7 +21,7 @@ public class PvP3 {
         newGame(game);
     }
 
-    public static void newGame(ThreeBaseGame game) {
+    private static void newGame(ThreeBaseGame game) {
         Scanner sc = new Scanner(System.in);
         game.printInCommandLine();
         System.out.print("\n");

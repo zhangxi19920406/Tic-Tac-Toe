@@ -1,8 +1,5 @@
 package game;
 
-import component.Board;
-import component.Player;
-
 /**
  * Created by XiZhang on 2/12/17.
  *
