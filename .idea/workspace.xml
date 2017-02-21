@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11527f1-27cf-4096-9aee-c8323b91b86a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/artificial/ThreeBaseAI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/FourBaseGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PvP3.java" afterPath="$PROJECT_DIR$/src/PvP3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/Board.java" afterPath="$PROJECT_DIR$/src/component/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/Player.java" afterPath="$PROJECT_DIR$/src/component/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/AbstractGame.java" afterPath="$PROJECT_DIR$/src/game/AbstractGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/ThreeBaseGame.java" afterPath="$PROJECT_DIR$/src/game/ThreeBaseGame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,17 +25,17 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1740#1741#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,27 +44,24 @@
       <file leaf-file-name="ThreeBaseGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/ThreeBaseGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreeBaseAI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/artificial/ThreeBaseAI.java">
+      <file leaf-file-name="FourBaseGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/FourBaseGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1554#1555#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-                <element signature="e#1627#1628#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +70,7 @@
       <file leaf-file-name="PvP3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PvP3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-54">
               <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,18 +82,18 @@
       <file leaf-file-name="AbstractGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/AbstractGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="171">
+              <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1395#1396#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1533#1534#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1974#1975#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+                <element signature="e#2064#2065#0" expanded="true" />
+                <element signature="e#2112#2113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,18 +109,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/Player.java">
+      <file leaf-file-name="ThreeBaseAI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/artificial/ThreeBaseAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="381">
+              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
               <folding>
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+                <element signature="e#1578#1579#0" expanded="true" />
+                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,12 +147,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/game/game.java" />
         <option value="$PROJECT_DIR$/src/game/Game.java" />
-        <option value="$PROJECT_DIR$/src/game/AbstractGame.java" />
-        <option value="$PROJECT_DIR$/src/game/ThreeBaseGame.java" />
         <option value="$PROJECT_DIR$/src/PvP3.java" />
         <option value="$PROJECT_DIR$/src/component/Player.java" />
-        <option value="$PROJECT_DIR$/src/component/Board.java" />
         <option value="$PROJECT_DIR$/src/artificial/ThreeBaseAI.java" />
+        <option value="$PROJECT_DIR$/src/component/Board.java" />
+        <option value="$PROJECT_DIR$/src/game/AbstractGame.java" />
+        <option value="$PROJECT_DIR$/src/game/ThreeBaseGame.java" />
+        <option value="$PROJECT_DIR$/src/game/FourBaseGame.java" />
       </list>
     </option>
   </component>
@@ -721,12 +717,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486946497025</updated>
-      <workItem from="1486946498296" duration="12270000" />
+      <workItem from="1486946498296" duration="19703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12270000" />
+    <option name="totallyTimeSpent" value="19703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
@@ -741,7 +737,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22427441" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -786,17 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/ThreeBaseGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -812,19 +797,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/artificial/ThreeBaseAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        <state relative-caret-position="381">
+          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
           <folding>
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -837,27 +819,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/AbstractGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PvP3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="-54">
           <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -865,16 +829,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/artificial/ThreeBaseAI.java">
+    <entry file="file://$PROJECT_DIR$/src/component/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/ThreeBaseGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/AbstractGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/FourBaseGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
